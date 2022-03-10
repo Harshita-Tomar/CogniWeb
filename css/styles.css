@@ -1,0 +1,332 @@
+body{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.btn{
+  background-color: #00B140 !important;
+  font-weight: bold !important;
+  word-spacing: 1.5px;
+}
+.top-menu{
+  background: #E6E6E6;
+}
+.top-menu a{
+  color: black ;
+  font-weight: 400;
+}
+.top-menu a:hover{
+  color: #00B140;
+}
+.top-men li{
+  list-style:none;
+  font-size: 12pt;
+}
+
+.top-men img{
+  width: 7px;
+}
+
+
+
+.nav-logo{
+  width: 15vw;
+}
+.navbar{
+  box-shadow: none !important;
+}
+.navbar-brand span{
+  color: #0033A1;
+  font-size: 18pt;
+}
+.navmen {
+  justify-content: flex-end;
+}
+.nav-item{
+  font-size: 18pt;
+  margin-right: 20px;
+}
+.nav-link:hover{
+  color: white !important;
+  background-color: #0033A1;
+  cursor: pointer;
+}
+.down-arrow{
+  width: 2vw;
+}
+.hide-menu{
+  display: none;
+}
+
+/* Main section */
+
+.carousel-caption {
+  text-align: left !important;
+  width: 40%;
+}
+
+
+.wid-100{
+  height: 60vh;
+  filter: brightness(0.5);
+}
+
+
+.tag-line{
+  font-weight: 600;
+  font-size: 4vmax;
+}
+.cognizant-help{
+  color: #0033A1;
+  font-weight: 400;
+  font-size: 2vmax;
+  line-height: 2;
+}
+
+.second-tag-line{
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.heros-section{
+  background-color: #0033A1;
+  color: white;
+}
+.heros-section img{
+  width: 50%;
+  height: auto;
+}
+
+.inside-hero{
+  display: flex;
+  justify-content: space-between;
+}
+.inside-hero h2{
+  font-size: calc(25px + 0*(100vw - 320px)/880);
+}
+.inside-hero h4{
+  font-size: calc(16px + 4*(100vw - 320px)/880);
+  font-weight: 400;
+}
+
+/* crads */
+.cts-in-india,.excellence{
+  background-color: #f2f2f2;
+}
+.cts-heading{
+  color:#0033A1;
+  font-size: calc(28px + 19*(100vw - 320px)/880);
+}
+.cts-in-india p{
+  font-size: calc(16px + 10*(100vw - 320px)/880);
+
+}
+.top-employ{
+  background-image: url("../img/1.jpg");
+}
+.locate-office{
+  background-image: url("../img/2.jpg");
+}
+.indian-banks{
+  background-image: url("../img/3.jpg");
+}
+.pharma{
+  background-image: url("../img/4.jpg");
+}
+.pharma,.indian-banks,.locate-office,.top-employ{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 334px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.myCont h3{
+  background: #0000007d;
+  color: white;
+  font-size:calc(12px + 10*(100vw - 320px)/880);
+  font-weight: 500;
+  padding: 20px 0px 60px;
+  position: relative;
+  top: 69%;
+}
+
+/* services section */
+
+.services{
+  background-image: url("../img/service-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.services h4{
+  font-size: 1.6vmax;
+}
+
+.meaning{
+  font-size: 1.5vmax;
+  color: white;
+}
+.right-arrow{
+  width: 1vw;
+}
+/* Engineer excellence section */
+
+.text-dark-blue{
+  color:#000063;
+  font-size: 1.2vmax;
+}
+.text-blue{
+  color: #0033a0;
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 1.6vmax;
+}
+.card-text{
+  font-size: 1.2vmax !important;
+}
+.card-body{
+  padding: 3rem !important;
+}
+.case-study{
+  color: #00B140;
+  font-weight: bold;
+  font-size: 1.2vmax !important;
+}
+.card-img-top{
+  height: 350px !important;
+  width: 100%;
+}
+
+/* beach */
+
+.beach{
+  background-image: url("../img/beach.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+
+.beach-text{
+  font-size: 3vmax;
+  font-weight: 700;
+}
+.play-video-text{
+  color: #00B140;
+  font-size: 1.2vmax;
+  font-weight: bold;
+}
+
+/* get to answer */
+
+
+.get-to-answer label{
+  color:black !important;
+  font-weight: 400;
+}
+
+/* footer menu */
+.footer-menu{
+  background: #E6E6E6;
+}
+.footer-nav{
+  display: flex;
+}
+.social{
+  color: #00B140;
+}
+.social i{
+  font-size:25px;
+}
+.terms a{
+  font-weight: bold;
+  color: black;
+}
+
+/* footer */
+
+.footer p{
+  line-height: 1.2;
+  font-size: 12pt;
+}
+footer h4{
+  color: #0033A0;
+  font-weight: 500 !important;
+}
+footer h3{
+  color: #0033A0;
+  font-weight: 500 !important;
+}
+
+footer a,p{
+  color: black ;
+  font-weight: 400;
+}
+footer a:hover{
+  color: #00B140 !important;
+}
+footer p:hover{
+  color: #00B140 !important;
+}
+
+
+@media screen and (max-width: 768px){
+  .heros-section img{
+    width: 100%;
+    height: auto;
+  }
+  .myCont h3{
+    background: #0000007d;
+    color: white;
+    font-size:calc(20px + 12*(100vw - 320px)/880);
+    font-weight: 500;
+  }
+  .meaning{
+    font-size: calc(15px + 12*(100vw - 320px)/880);
+  }
+  .carousel-caption{
+    width: 80%;
+  }
+  .text-dark-blue{
+    font-size: calc(10px + 12*(100vw - 320px)/880);
+  }
+  .text-blue{
+    font-size: calc(15px + 12*(100vw - 320px)/880);
+  }
+  .card-text{
+    font-size: calc(8px + 12*(100vw - 320px)/880) !important;
+
+  }
+
+  .card-img-top{
+    height: auto !important;
+    width: 100%;
+  }
+  .footer-nav{
+    display: block !important;
+  }
+  .terms a,p{
+    display: block;
+  }
+  .services h4{
+    font-size: calc(15px + 12*(100vw - 320px)/880);
+  }
+  .card-body{
+    padding: 1rem !important;
+  }
+  .wid-100{
+    height: 60vh !important;
+    width: fit-content !important;
+  }
+}
+@media screen and (max-width: 993px){
+  .hide-menu{
+    display: list-item;
+  }
+  .top-menu{
+    display: none !important;
+  }
+}
